@@ -1,0 +1,8 @@
+Rule 1 : As per the Pom, create a dedicated Java file for each available screen in application and 
+store page specific elements (locators) in that particular file.
+e.g. Login.java
+
+Rule 2 : As per the Pom, object identification can be done in two ways - @FindBy and @FindBys
+
+Rule 3 : In order to create the objects of java classes available in page object repository we should
+ take the help of page factory class.
