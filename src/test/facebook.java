@@ -18,7 +18,7 @@ public class facebook{
 		driver.manage().window().maximize();
 		driver.navigate().back();
 		WebElement createacc = driver.findElement(By.xpath("//a[@role ='button' and @ajaxify='/reg/spotlight/']"));
-			
+			222
 		createacc.click();
 		WebElement fname = driver.findElement(By.xpath("//input[@name ='firstname']"));
 		
